@@ -1,0 +1,113 @@
+textarea {
+    resize: none;
+    overflow: hidden;
+    width: 100%;
+    min-height: 50px;
+}
+lable {
+    font-weight: bold;
+}
+button {
+    margin-bottom: 10px;
+}
+@media screen and (max-width:600px) {
+    .middle,.left,.right{
+        width:100%;
+    }
+    .st-container a,input{
+        width:80px;
+        height:25px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1000px) {
+    .left,.middle{
+        width:48%;
+    }
+    .right{
+        width:100%;
+    }
+    .st-container a{
+        width:8%;
+        height:25px;
+    }
+}
+    #fu {
+       margin:0
+}
+    #footer {
+        background-color:rgba(255,255,255,0.85);
+        width:100%;
+        text-align:center;
+       }
+   #music {
+         text-align:left;
+       }
+       
+    #zhu {
+        margin:10%;
+    }
+    #nav {
+        width:100%;
+        height:40px;
+        background:rgba(0,0,0,0);
+        color:rgba(255,255,255,0.95);
+        line-height:60px;
+        text-align:center;
+        padding:0;
+        margin:0;
+        list-style:none;
+    }
+    .fix {
+        position:fixed;
+        top:0;
+        left:0;
+    }
+    @font-face {
+    font-family: "思源黑体";
+    src: url(https://zhsea.oss-cn-shenzhen.aliyuncs.com/font/zh/SourceHanSansCN-Regular.otf);
+}
+@font-face {
+    font-family: "GoogleSans";
+    src: url(https://zhsea.oss-cn-shenzhen.aliyuncs.com/font/en/GoogleSans-Regular.ttf);
+}
+window.onresize = function(){div.height(div.width);}
+a{text-decoration:none}
+    div[contenteditable]:empty:before {
+      content: attr(placeholder);
+      color: #99a2aa;
+    }
+
+    div[contenteditable]:focus {
+      content: none;
+      outline: none;
+    }
+    body {
+        background-color: rgba(242,241,246,255);
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+    }
+    #main {
+      width: 90vw;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    article {
+      background-color: rgba(255,255,255,0.95);
+      padding: 25px;
+      margin: 18px 0;
+      border-radius: 12px;
+      box-shadow: 0 35px 30px 0 rgba(236, 236, 236, .86);
+    }
+    xxin {
+      background-color: rgba(255,103,54,255);
+      padding: 10px;
+      margin: 16px 0;
+      border-radius: 10px;
+      box-shadow: 0 35px 30px 0 rgba(0, 0, 0, 0);
+    }
+    .time {
+      color: #99a2aa;
+      font-size: 15px;
+    }
