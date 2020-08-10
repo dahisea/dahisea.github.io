@@ -150,3 +150,11 @@ function shut()
   var parentDoc = external;      
   parentDoc.parentWindow.__g.htmlWindow.hideWindow(0);
 }
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?30e13b131eeb07e703bf50c24604d74f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+}
