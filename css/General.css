@@ -46,13 +46,13 @@ button {
     #zhu {
         margin:7.5%;
     }
-    @font-face {
-    font-family: "思源黑体";
-    src: url(https://zhsea.oss-cn-shenzhen.aliyuncs.com/font/zh/SourceHanSansCN-Regular.otf);
+@font-face {
+font-family: "思源黑体";
+src: url(https://dahi.jingzhidh.com/fonts/SourceHanSansCN-Regular.otf);
 }
 @font-face {
     font-family: "GoogleSans";
-    src: url(https://zhsea.oss-cn-shenzhen.aliyuncs.com/font/en/GoogleSans-Regular.ttf);
+    src: url(https://dahi.jingzhidh.com/fonts/GoogleSans-Regular.ttf);
 }
 window.onresize = function(){div.height(div.width);}
 a{text-decoration:none}
