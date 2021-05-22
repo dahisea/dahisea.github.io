@@ -48,7 +48,7 @@ button {
     }
 @font-face {
 font-family: '华文中宋';
-src: url(https://dahis.yixuedh.com/fonts/HuaWenZhongSong-1.ttf);
+src: url(http://dahis.yixuedh.com/fonts/HuaWenZhongSong-1.ttf);
 }
 window.onresize = function(){div.height(div.width);}
 a{text-decoration:none}
