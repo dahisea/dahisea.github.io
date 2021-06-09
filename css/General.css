@@ -2,7 +2,6 @@
 font-family: '华文中宋';
 src: url(https://dahipress.oss-cn-shenzhen.aliyuncs.com/fonts/HuaWenZhongSong-1.ttf);
 }
-
 textarea {
     resize: none;
     overflow: hidden;
@@ -195,7 +194,7 @@ nav ul li a {
       nav ul li {
             box-sizing: border-box;
             width: 100%;
-            padding: 24px;
+            padding: 25px;
             text-align: center;
       }
 
